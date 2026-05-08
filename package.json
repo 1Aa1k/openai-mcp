@@ -1,0 +1,14 @@
+{
+  "name": "mcp-openai-custom",
+  "version": "1.0.0",
+  "description": "Tiny MCP server that proxies any OpenAI chat-completion model (GPT-5.5, GPT-4o, o1, etc.)",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "mcp-openai-custom": "index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "openai": "^4.76.0"
+  }
+}
