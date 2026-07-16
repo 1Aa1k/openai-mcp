@@ -1,4 +1,4 @@
-# mcp-openai-custom
+# openai-mcp
 
 Tiny MCP server that proxies any OpenAI chat-completion model ID to OpenAI without a local whitelist. Built because `@mzxrai/mcp-openai` is stale (last release Dec 2024) and hardcodes a 4-model whitelist that rejects GPT-5.x.
 
